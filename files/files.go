@@ -16,15 +16,15 @@ func WriteFile(content string, name string) {
 		fmt.Println(err)
 	}
 
+	defer file.Close()
+
 	_, err = file.WriteString(content)
 
 	if err != nil {
-		file.Close()
 		fmt.Println(err)
 		return
 	}
 
 	fmt.Println("Запись успешна")
 
-	file.Close()
 }

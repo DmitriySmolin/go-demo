@@ -7,6 +7,9 @@ import (
 )
 
 func main() {
+	// defer fmt.Println(1) // 1
+	// defer fmt.Println(2) // 2
+	// порядок вывода 2 -> 1 // по приниципу LIFO работает defer
 	files.WriteFile("Привет! Я файл!!", "file.txt")
 
 	login := promptData("Введите логин")
