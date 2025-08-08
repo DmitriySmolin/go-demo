@@ -1,0 +1,19 @@
+{
+    "accounts": [
+        {
+            "login": "run",
+            "password": "bZzyP!X8gX3l",
+            "url": "https:www.run.ru",
+            "createdAt": "2025-08-04T02:22:43.0566451+04:00",
+            "updatedAt": "2025-08-04T02:22:43.0566451+04:00"
+        },
+        {
+            "login": "test",
+            "password": "IyKRuiwqOGIG",
+            "url": "https:/www/test.ru",
+            "createdAt": "2025-08-07T02:34:17.3892976+04:00",
+            "updatedAt": "2025-08-07T02:34:17.3892976+04:00"
+        }
+    ],
+    "updatedAt": "2025-08-07T02:34:17.4392212+04:00"
+}
